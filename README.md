@@ -2,6 +2,16 @@
 
 CSE student in Chennai. I build software, and I take hardware apart to see how it works. To me, computer science was never only about writing code.
 
+## What I work with
+
+**Languages:** Python, Rust, JavaScript, Kotlin  
+**Frontend:** React, Tauri  
+**Backend:** FastAPI, Node.js  
+**Cloud:** Azure (Static Web Apps, Cosmos DB, Entra ID)  
+**AI:** spaCy, Monte Carlo tree search, LLM APIs (Groq, Gemini, OpenRouter, NVIDIA NIM)  
+**Mobile:** Android, Termux  
+**Every day:** Linux (CachyOS), fish, Git
+
 ## Things I've built
 
 **[AnonymX](https://github.com/adhiprojs/ANONYMX)**
