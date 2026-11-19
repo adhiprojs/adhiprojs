@@ -1,39 +1,65 @@
 # Adhithya S
 
-CSE student in Chennai. I build software, and I take hardware apart to see how it works. To me, computer science was never only about writing code.
+CSE student in Chennai. I build software, and I take hardware apart to see how it works.
 
-## What I work with
+<a href="https://adhi-dev.vercel.app"><img src="https://img.shields.io/badge/Portfolio-adhi--dev.vercel.app-e0782f?style=flat-square" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/adhithya-s-95932232a/"><img src="https://img.shields.io/badge/LinkedIn-Adhithya%20S-0A66C2?style=flat-square" alt="LinkedIn"></a>
 
-**Languages:** Python, Rust, JavaScript, Kotlin  
-**Frontend:** React, Tauri  
-**Backend:** FastAPI, Node.js  
-**Cloud:** Azure (Static Web Apps, Cosmos DB, Entra ID)  
-**AI:** spaCy, Monte Carlo tree search, LLM APIs (Groq, Gemini, OpenRouter, NVIDIA NIM)  
-**Mobile:** Android, Termux  
-**Every day:** Linux (CachyOS), fish, Git
+- Interned in Chennai Metro Rail's IT department in June 2026, rebuilding their commuter chatbot so fares and routes come from real data instead of the language model.
+- Building privacy and multi-agent tools: AnonymX, PACT and the Agentic Debate Arena.
+- Daily driver is CachyOS on a Zenbook 14 OLED, tuned more than it probably needs.
+- Currently bringing an old Toshiba Satellite C630 back to life.
 
 ## Things I've built
 
-**[AnonymX](https://github.com/adhiprojs/ANONYMX)**
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/adhiprojs/ANONYMX"><img src="assets/projects/anonymx.webp" alt="AnonymX scrubbing a sample patient record"></a>
 
-Encryption leaves a key to steal, so AnonymX changes the data instead. It runs locally, finds names, Aadhaar and PAN numbers, emails and phone numbers, and generalizes them ("22 yrs" becomes "20–25") until nobody can be singled out. An auditor then scores how identifiable the output still is, and an invisible watermark traces leaked output back to whoever generated it. Rust and Tauri, with Python for the language processing.
+**[AnonymX](https://github.com/adhiprojs/ANONYMX)**<br>
+Encryption leaves a key to steal, so AnonymX changes the data instead: "22 yrs" becomes "20–25" until nobody can be singled out. Runs fully offline.
 
-**[Agentic Debate Arena](https://github.com/adhiprojs/Agentic-Debate-Arena-with-MCTS)**
+`Rust` `Tauri` `spaCy` `k-anonymity`
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/adhiprojs/Agentic-Debate-Arena-with-MCTS"><img src="assets/projects/debate-arena.webp" alt="Agentic Debate Arena landing page"></a>
 
-Two AI agents debate, but the language models never decide who wins. They only suggest arguments. Monte Carlo tree search picks what actually gets said, and a refutation only counts if logic shows it contradicts what the other side really said. FastAPI and React.
+**[Agentic Debate Arena](https://github.com/adhiprojs/Agentic-Debate-Arena-with-MCTS)**<br>
+Two AI agents debate, but the language models never pick the winner. Monte Carlo tree search chooses each argument and logic checks every refutation.
 
-**[PACT](https://github.com/adhiprojs/PACT)**
+`Python` `FastAPI` `React` `MCTS`
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/adhiprojs/PACT"><img src="assets/projects/pact.webp" alt="PACT command centre with an incident on the map"></a>
 
-Disaster coordination for when the internet is down and only 2G SMS gets through. Headcount, injuries, supplies and GPS fit into 35 characters, and any Android phone running Termux can act as the SMS gateway.
+**[PACT](https://github.com/adhiprojs/PACT)**<br>
+Disaster coordination for when only 2G SMS gets through. Headcount, injuries, supplies and GPS fit into 35 characters, and any Android phone with Termux can be the gateway.
 
-**[EduSphere](https://github.com/adhiprojs/Edusphere)**
+`Python` `Kotlin` `Android` `Multi-agent`
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/adhiprojs/Edusphere"><img src="assets/projects/edusphere.webp" alt="EduSphere student dashboard"></a>
 
-A serverless learning portal on Azure with an AI mentor and Microsoft sign-in. Once it worked, we attacked it ourselves and fixed what we found: stored XSS through profile links, write and delete APIs that didn't check who was asking, and an AI mentor that could be abused to run up the token bill.
+**[EduSphere](https://github.com/adhiprojs/Edusphere)**<br>
+Serverless learning portal on Azure with an AI mentor. Once it worked we attacked it ourselves and fixed stored XSS, unguarded write APIs and token-bill abuse.
 
-## Off the keyboard
+`JavaScript` `Azure` `Cosmos DB` `Entra ID`
+</td>
+</tr>
+</table>
 
-I run CachyOS on a Zenbook 14 OLED and tune it more than I probably should. Right now I'm bringing an old Toshiba Satellite C630 back to life. In June I interned in Chennai Metro Rail's IT department, rebuilding their commuter chatbot so fares and routes come from real data instead of the language model.
+## What I work with
 
-## Elsewhere
+<img src="assets/stack.svg" alt="Python, Rust, JavaScript, Kotlin, React, Tauri, FastAPI, Node.js, Azure, Android Studio, Linux, Git">
 
-[Portfolio](https://adhi-dev.vercel.app) · [LinkedIn](https://www.linkedin.com/in/adhithya-s-95932232a/)
+Also: spaCy, Monte Carlo tree search, LLM APIs (Groq, Gemini, OpenRouter, NVIDIA NIM), Cosmos DB, Entra ID, Termux, fish.
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adhiprojs/adhiprojs/output/contributions-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adhiprojs/adhiprojs/output/contributions-light.svg">
+  <img src="https://raw.githubusercontent.com/adhiprojs/adhiprojs/output/contributions-dark.svg" alt="My contribution graph, animated">
+</picture>
